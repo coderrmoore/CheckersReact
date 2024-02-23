@@ -1,0 +1,49 @@
+// COLORS
+$primary-color: #424242;
+$primary-light: #6d6d6d;
+$primary-dark: #1b1b1b;
+$secondary-color: #d32f2f;
+$secondary-light: #ff6659;
+$secondary-dark: #9a0007;
+
+.first-place {
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-color: $secondary-color;
+    background-size: cover;
+}
+
+.second-place {
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-color: $primary-dark;
+    color: white;
+    background-size: cover;
+}
+
+.third-place {
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-color: $secondary-color;;
+    background-size: cover;
+}
+
+.even-row {
+    border: 1px solid black;
+    background-color: $secondary-color;;
+}
+.even-row a:hover {
+    color: white;
+}
+
+.odd-row {
+    border: 1px solid black;
+    background-color: $primary-dark;
+    color: white;
+}
+.odd-row a {
+    color: white;
+}
+.odd-row a:hover {
+    color: $secondary-color;
+}
